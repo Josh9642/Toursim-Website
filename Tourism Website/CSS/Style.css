@@ -1,0 +1,130 @@
+header {
+/*centralize both vertically and horrizontally the h1*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	background-color: #7077EF;
+	color:#001a00;
+}
+
+.header-background{
+	/*Improve the header by adding background image*/
+	background-image: url("../Images/background.jpg");
+	background-size: 100% 100%;
+	opacity: 0.8;
+}
+
+.h2 {
+	background-color: #7077EF;
+/*centralize both vertically and horrizontally the h1*/
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-size: 15px;
+}	
+
+.h3 {
+/*centralize both vertically and horrizontally the h1*/
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-size: 25px;
+	color: red;
+}
+
+body {
+	background-color: #7077EF;
+	font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+	background-color: #002db3;
+	padding: 10px 10px 10px 10px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: 'Oswald' , sans-serif;
+	font-size: 20px;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+	background-color: #111111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+p {
+	padding: 10px 10px 10px 10px;
+/*centralize both vertically and horrizontally the h1*/
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-size: 20px;
+	color: black;
+}
+
+.link{
+	color:darkblue;
+}
+
+footer {
+	font-size: 15px;
+	color: red;
+}
+
+.contact {
+	/*centralize both vertically and horrizontally the h1*/
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-size: 20px;
+	color: black;
+}
+
+.reference-style {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+table {
+	background-color: white;
+	border: solid 2px black;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+tr {	
+	min-height: 20vh;
+	background-color: white;
+	border: solid 2px black;
+	display: flex;
+}
+
+td {
+	min-height: 20vh;
+	background-color: white;
+	border: solid 2px black;
+	display: flex;
+	flex: 2;
+}
+
+.image_column {
+	flex: 1;
+}
+
+@media only screen and(max-width: 426px) {
+
+	
+}
